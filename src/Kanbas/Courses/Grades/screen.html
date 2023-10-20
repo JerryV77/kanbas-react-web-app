@@ -1,0 +1,178 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/styles.css" />
+        <link rel="stylesheet" href="/Kanbas/KanbasNavigation/index.css" />
+        <link rel="stylesheet" href="/Kanbas/Courses/CourseNavigation/index.css" />
+        <link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.css" />
+        <link rel="stylesheet" href="/lib/bootstrap/bootstrap.min.css" />
+    </head>
+    <body>
+        <div class="wd-flex-row-container">
+            <div class="wd-bg-color-black">
+                <ul class="wd-kanbas-navigation">
+                    <div class="card" style="width: 80px;height: 60px;">
+                        <img src="/public/NU-logo.png"
+                            class="card-img-top" alt="">
+                    </div>    
+                    <li>
+                        <a href="/Kanbas/Account/Profile/screen.html">
+                            <i class="fa fa-user-circle-o" aria-hidden="true" style="color: white;"></i>
+                            Account
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/Kanbas/Dashboard/screen.html">
+                            <i class="fa fa-tachometer" aria-hidden="true"></i>
+                            Dashboard
+                        </a>
+                    </li>
+                    <li class="wd-active">
+                        <a href="/Kanbas/Courses/Home/screen.html">
+                            <i class="fa fa-book" aria-hidden="true"></i>
+                            Courses
+                        </a>
+                        </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-calendar" aria-hidden="true"></i>
+                            Calender
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-inbox" aria-hidden="true"></i><br>
+                            Inbox
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-clock-o" aria-hidden="true"></i>
+                            History
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-television" aria-hidden="true"></i>
+                            Studio
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+                            Commons
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-question-circle-o" aria-hidden="true"></i><br>
+                            Help
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="wd-bg-color-white">
+                <ul class="wd-course-navigation">
+                    <li><a href="/Kanbas/Courses/Home/screen.html">Home</a></li>
+                    <li><a href="/Kanbas/Courses/Modules/screen.html">Modules</a></li>
+                    <li><a href="#">Piazza</a></li>
+                    <li><a href="#">Zoom Meetings</a></li>
+                    <li><a href="/Kanbas/Courses/Assignments/screen.html">Assignments</a></li>
+                    <li><a href="#">Quizzes</a></li>
+                    <li class="wd-active"><a href="/Kanbas/Courses/Grades/screen.html">Grades</a></li>
+                    <li><a href="#">People</a></li>
+                    <li><a href="#">Panopto Video</a></li>
+                    <li><a href="#">Discussions</a></li>
+                    <li><a href="#">Announcements</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Files</a></li>
+                    <li><a href="#">Files</a></li>
+                    <li><a href="#">Rubrics</a></li>
+                    <li><a href="#">Outcomes</a></li>
+                    <li><a href="#">Collaborations</a></li>
+                    <li><a href="#">Syllabus</a></li>
+                </ul>
+            </div>
+            <div class="wd-flex-grow-1">
+                <td valign="top">
+                    <!-- <select>
+                        <option>Gradebook</option>
+                    </select> -->
+                    <button>
+                        <i class="fa fa-upload" aria-hidden="true"></i>
+                        Import
+                    </button>
+        
+                    <i class="fa fa-download" aria-hidden="true"></i>
+                    <select>            
+                        <option>Export</option>
+                        <option>UnPublish</option>
+                    </select>
+                    <button>
+                        <i class="fa fa-cog" aria-hidden="true"></i>
+                    </button>
+                    
+                    <table width="100%">
+                        <tbody>
+                            <tr>
+                                <td>Student Names<br />
+                                    <input placeholder="Search Students" />
+                                </td>
+                                <br />
+                                <td>Assignment Names<br />
+                                    <input placeholder="Search Assignments" />
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+        
+                    <button>
+                        <i class="fa fa-filter" aria-hidden="true"></i>
+                        Apply Filters
+                    </button>
+
+                    <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Student Name</th>
+                                <th>A1 - ENV + HTML<br />Out of 100</th>
+                                <th>Q1 - HTML<br />Out of 38</th>
+                                <th>A2 - CSS + BOOTSTRAP<br />Out of 100</th>
+                                <th>Q2 - CSS<br />Out of 32</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>LeBron James</td>
+                                <td>100</td>
+                                <td>38</td>
+                                <td>100</td>
+                                <td>32</td>
+                            </tr>
+                            <tr>
+                                <td>Chris Paul</td>
+                                <td>90</td>
+                                <td>38</td>
+                                <td>80</td>
+                                <td>32</td>
+                            </tr>
+                            <tr>
+                                <td>James Harden</td>
+                                <td>100</td>
+                                <td>36</td>
+                                <td>90</td>
+                                <td>30</td>
+                            </tr>
+                            <tr>
+                                <td>Luka Doncic</td>
+                                <td>90</td>
+                                <td>30</td>
+                                <td>70</td>
+                                <td>30</td>
+                            </tr>
+                        </tbody>
+                        <tfoot></tfoot>
+                    </table>
+        </div>
+    </body>
+</html>
