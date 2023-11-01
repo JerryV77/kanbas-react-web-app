@@ -2,7 +2,7 @@ import KanbasNavigation from "./KanbasNavigation";
 import Dashboard from "./Dashboard";
 import Courses from "./Courses";
 import { Routes, Route, Navigate } from "react-router-dom";
-// import './index.css';
+import './index.css';
 
 function Kanbas() {
   return (
