@@ -1,0 +1,83 @@
+.wd-flex-row-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.wd-gray {
+    color: gray;
+}
+
+.wd-theme {
+    color: crimson;
+}
+
+.wd-bg-gainsboro {
+    background-color: gainsboro;
+}
+
+.wd-no-left-margin {
+    margin-left: 0;
+}
+
+* {
+    font-family: "Lato", sans-serif;
+}
+
+.wd-margin-top-sm {
+    margin-top: 10px !important;
+}
+
+.wd-margin-top-md {
+    margin-top: 40px !important;
+}
+
+.wd-card-img-button {
+    position: absolute !important;
+    top: 10px !important;
+    right: 20px !important;
+}
+
+.wd-card-width {
+    width: 270px !important;
+}
+
+a {
+    text-decoration: none;
+    color: crimson;
+}
+
+.wd-inline-flex {
+    display: inline-flex !important;
+}
+
+.wd-font-large {
+    font-size: 1.5em;
+}
+
+.wd-no-radius {
+    border-radius: 0 !important;
+}
+
+.wd-assignment-border {
+    border-left: 4px solid !important;
+    border-left-color: green !important;
+    border-bottom: 1px solid !important;
+    border-bottom-color: gainsboro !important;
+}
+
+.wd-root-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.wd-border-light-gray {
+    border-color: gainsboro;
+}
+
+.wd-red {
+    color: crimson !important;
+}
+
+.wd-black {
+    color: black !important;
+}
